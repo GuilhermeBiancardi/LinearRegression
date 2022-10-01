@@ -17,6 +17,7 @@
 ```php
     $eixoX = Array(1,2,3,4,5,6,7,8,9,...);
     $eixoY = Array(1,2,3,4,5,6,7,8,9,...);
+    
     $lr->setData($eixoX, $eixoY);
     $predict = $lr->predict(10);
 ```
